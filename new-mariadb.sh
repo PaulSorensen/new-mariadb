@@ -17,7 +17,7 @@
 #  https://buymeacoffee.com/paulsorensen
 ################################################################################
 
-BLUE='\033[0;34m'
+BLUE='\033[38;5;81m'
 NC='\033[0m'
 echo -e "${BLUE}New MariaDB by paulsorensen.io${NC}"
 echo ""
