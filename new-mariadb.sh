@@ -64,7 +64,7 @@ mariadb -u "$ADMIN_USER" -p"$ADMIN_PASS" -e "$SQL_COMMAND"
 
 # Check if the command was successful
 if [ $? -eq 0 ]; then
-    echo "Database '$DB_NAME' and user '$DB_USER' created successfully."
+    echo -e "${BLUE}Database '$DB_NAME' and user '$DB_USER' created successfully.${NC}"
 else
     echo "Error creating database or user. Check your credentials and try again."
 fi
