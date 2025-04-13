@@ -1,20 +1,19 @@
 #!/bin/bash
 ################################################################################
-#  Script Name : New MariaDB
-#  Author      : Paul Sørensen
-#  Website     : https://paulsorensen.io
-#  GitHub      : https://github.com/paulsorensen
-#  Version     : 1.0
-#  Last Update : 25.02.2025
+# Script Name   : New MariaDB
+# Author        : Paul Sørensen
+# Website       : https://paulsorensen.io
+# GitHub        : https://github.com/paulsorensen
+# Version       : 1.0
+# Last Modified : 2025/04/14 01:12:20
 #
-#  Description:
-#  Creates a new database and user on MariaDB.
+# Description:
+# Creates a new database and user on MariaDB.
 #
-#  Usage:
-#  ./new-mariadb.sh -u <admin_user> -p
+# Usage: Refer to README.md for details on how to use this script.
 #
-#  If you found this script useful, a small tip is appreciated ❤️
-#  https://buymeacoffee.com/paulsorensen
+# If you found this script useful, a small tip is appreciated ❤️
+# https://buymeacoffee.com/paulsorensen
 ################################################################################
 
 BLUE='\033[38;5;81m'
